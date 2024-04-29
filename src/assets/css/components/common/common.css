@@ -1,0 +1,7 @@
+/* Better to follow the sequence of property*/
+/* Ex: @apply <display> <alignments> <position> <h/w/> <bg> <border> <font - size, weight, color, align, ...so on> 
+<p/m/spacing> <shadow> <animation> */
+
+.section-defaults {
+  @apply flex flex-col items-center justify-center min-h-screen px-5 py-10
+}
